@@ -1,4 +1,7 @@
-This is a recreation and 'improvement' of the pulsar map included on the Pioneer and Voyager missions.
+This is a recreation and 'improvement' of the pulsar map included on the Pioneer and Voyager missions. It renders images like this:
+
+[Pioneer/Voyager pulsar map](output-original-pulsar-map.png?raw=true)
+
 
 ## Installing
 
@@ -19,10 +22,13 @@ live-server
 You can then access e.g. the original map at `http://localhost:8080/original.html`
 
 If you want to make changes to the Coffeescript code, you can run
+
 `./node_modules/coffeescript/bin/coffee --compile --transpile --inline-map --watch js/*.coffee`
+
 this will track and compile all Coffeescript files. You can use your locally installed Coffeescript as well, but make sure it is version 2.x
 
 If you'd like to download a SVG of the results, you can execute this in your browser console:
+
 `paper.project.exportSVG()`
 
 There are several HTML files and corresponding Coffeescript files that render a specific pulsar map:
@@ -31,8 +37,7 @@ There are several HTML files and corresponding Coffeescript files that render a 
 - Compared: Original and current compared. Note that the pulsars lose rotational speed and thus frequency. This changes the dot pattern. The distance is the least accurate and not that necessary anyway (it's essentially a triangulation). The difference in angle is a correction of earlier data.
 - All: Renders *all* pulsars on a massive map. This takes some time to complete, so be patient. It may also cause quite a few JS errors, due to missing data.
 
-If you want to mess with the way it looks, you can easily change the font, character subsitutions and size in the `drawPulsar` function in `j/lib.coffee`.
-
+If you want to mess with the way it looks, you can easily change the font, character subsitutions and size in the `drawPulsar` function in `js/lib.coffee`.
 
 ## Source material
  
