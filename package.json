@@ -1,0 +1,22 @@
+{
+  "name": "pulsar-map",
+  "version": "1.0.0",
+  "description": "Recreation of the Voyager pulsar map",
+  "main": "pulsar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^7.0.1",
+    "coffeescript": "^2.3.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
+    "paper": "^0.11.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1"
+  }
+}
