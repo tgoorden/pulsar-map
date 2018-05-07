@@ -1,6 +1,6 @@
 This is a recreation and 'improvement' of the pulsar map included on the Pioneer and Voyager missions. It renders images like this:
 
-[Pioneer/Voyager pulsar map](output-original-pulsar-map.png?raw=true)
+![Pioneer/Voyager pulsar map](output-original-pulsar-map.png?raw=true)
 
 
 ## Installing
